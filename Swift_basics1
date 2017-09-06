@@ -1,0 +1,58 @@
+//  Write some awesome Swift code, or import libraries like "Foundation",
+//  "Dispatch", or "Glibc"
+
+
+// var name: String = "Anakin"
+// name = "Darth Vader"
+
+// var num: Int = -42
+// var dec: Double = 4.2
+
+// let name2: String = "Anakin Skywalker"
+// print(name2)
+
+
+// var mymtuableArray = ["one"]
+// let myImmutableArray = ["uno"]
+
+// mymtuableArray.append("Two")
+// print (mymtuableArray)
+
+// // mymtuableArray + ["three", "four"]
+// // print (mymtuableArray)
+
+// var myMutDict = ["one": 1]
+// let myImmutDict = ["uno": 1]
+
+// myMutDict["two"] = 2
+// myMutDict["one"] = 0
+
+// print (myMutDict)
+// print (myImmutDict)
+
+// print ("The maximum value: \(Int.max)")
+// print ("The minimum value: \(Int.min)")
+
+// print ("The maximum value: \(Int32.max)")
+// print ("The minimum value: \(Int32.min)")
+
+print ("The maximum value: \(UInt32.max)")
+print ("The minimum value: \(UInt32.min)")
+
+var myInt32: Int32 = 3
+var myNormalInt: Int
+
+myNormalInt = Int(myInt32)
+
+print ("Multiplication \(4 * 3)")
+print ("Division \(1/3)")
+
+
+
+
+
+
+
+
+
+
