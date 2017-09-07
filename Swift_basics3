@@ -1,0 +1,179 @@
+// var toDoList: [String] = [String]()
+// toDoList.append("Learn iOS")
+// toDoList.append("Build the next Flappy Bird")
+// toDoList.append("Retire in Cancun")
+// print (toDoList)
+
+// var toDoList2 = [String]()
+// toDoList2.append("Learn iOS")
+// toDoList2.append("Build the next Flappy Bird")
+// toDoList2.append("Retire in Cancun")
+// print (toDoList2)
+
+
+// var Arr = [1,2,3,4,5]
+// print ("\(Arr[0])")
+// print ("\(Arr[1..<4])")
+// Arr[0] = 10
+// print (Arr)
+
+// Arr.append(6)
+// print (Arr)
+
+// var popped = Arr.remove(at: 0)
+// print(popped)
+// print(Arr)
+
+// Arr.insert(20, at: 2)
+// print(Arr)
+
+// Arr.insert(100,at:Arr.count)
+// print(Arr)
+
+// for i in 0..<Arr.count {
+// 	print("one")
+// }
+
+// var myDict1 = [String: Int]()
+
+// var myDict = [
+// 	"Kobe": 24,
+// 	"Lebron": 23,
+// 	"Rondo": 9
+// ]
+
+// // print(myDict["Rondo"])
+// myDict["Fisher"] = 2
+// myDict["Kobe"] = 8
+// myDict["Lebron"] = nil
+
+// var rondanum = myDict.removeValue(forKey: "Rondo")
+// print(rondanum)
+
+// if let rondanum = myDict.removeValue(forKey: "Rondo") {
+// 	print(rondanum)
+// }
+
+// if let num = myDict["Kobe"] {
+// 	print (num)
+// }
+
+// for (key, value) in myDict {
+// 	print ("The key is \(key) and the value is \(value)")
+// }
+
+// for x in myDict {
+// 	print (x)
+// }
+
+// func sayHello(name: String) {
+// 	print("Hello, \(name), how are you doing today?")
+// }
+
+// sayHello(name: "Thej")
+
+
+// func desc(width w: Int, height h: Int) {
+// 	print ("My width is \(w) and my height is \(h)")
+// }
+
+// desc(width: 10, height: 20)
+
+// var myInt = 1
+// func changeInt(someInt: inout Int) {
+// // 	var someInt = someInt
+// 	someInt = someInt + 1
+// 	print (someInt)
+// }
+
+// changeInt(someInt: &myInt)
+// print(myInt)
+
+
+// func Hello(name: String = "buddy") -> String {
+// 	return "Hey \(name)"
+// }
+
+// var greeting: String?
+// greeting = Hello()
+// print(greeting)
+
+
+// Hello(name: "Yoda")
+
+// func something(dict: [String: Int], forKey key: String) -> Int? {
+// 	if let value = dict[key] {
+// 		return value
+// 	} else {
+// 		return nil
+// 	}
+// }
+
+// var numdict = ["Kobe": 24, "Curry": 30]
+// var num = something(dict: numdict, forKey: "Kobe")
+// if let number = num {
+// 	print(number)
+// }
+
+// var myint = 1
+
+// func addint(){
+// 	myint += 20
+// }
+
+// print (myint)
+// addint()
+// print (myint)
+
+// func findmin(arr:[Int]) -> Int? {
+// 	if arr.count > 0 {
+// 		var min = arr[0]
+// 		for num in arr {
+// 			if num < min {
+// 				min = num
+// 			}
+// 		}
+// 		return min
+// 	} else {
+// 		return nil
+// 	}
+// }
+
+// // optionals-------
+
+var name: String = "Jay"
+print (name)
+
+
+
+// // proper unwrapping-------
+var pet: String?
+pet = "skippy"
+if let unwrap = pet {
+	print (unwrap)
+}
+
+
+// // forced unwrapping-----------
+var present: String? = "apple watch"
+print ("thank you \(present!)")
+
+// // implicit uncwrapped optionals
+var glue: String! = "bored"
+print("\(glue)")
+glue = nil
+print ("\(glue)")
+
+
+
+
+
+
+
+
+
+
+
+
+
+

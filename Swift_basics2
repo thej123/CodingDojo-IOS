@@ -1,0 +1,51 @@
+//  Write some awesome Swift code, or import libraries like "Foundation",
+//  "Dispatch", or "Glibc"
+
+var name: String = "John Hancock"
+let password = "supersecret"
+
+var Poem = "Alive without breath, As cold as death; Never thirsty, ever drinking, All in mail never clinking"
+
+print(Poem)
+
+var num = 5
+let name2 = "kobe"
+print ("my favorite player is \(name) and he has \(num) rings")
+print ("His jersey number is \(8*3)")
+
+var rings = 3
+if rings >= 5 {
+	print ("You are welcome to join the party")
+} else if rings > 2 {
+	print ("Decent..but\(rings) rings aren't enough")
+}
+else {
+	print ("Go win some more rings")
+}
+
+var crazy = false
+if !crazy {
+	print("Let's party")
+}
+
+for i in 1...5 {
+	print (i)
+}
+
+for i in 1..<5 {
+	print(i)
+}
+
+var i = 1
+while i < 6 {
+	print(i)
+	i = i+1
+}
+
+
+
+
+
+
+
+
