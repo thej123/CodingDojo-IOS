@@ -54,8 +54,8 @@ class Deck {
     }
     func shuffle() {
         for _ in 0...15 {
-            var random = Int(arc4random_uniform(UInt32(cards.count)))
-            var random2 = Int(arc4random_uniform(UInt32(cards.count)))
+            let random = Int(arc4random_uniform(UInt32(cards.count)))
+            let random2 = Int(arc4random_uniform(UInt32(cards.count)))
             if random != random2 {
                 swap(&cards[random], &cards[random2])
             }
@@ -76,12 +76,10 @@ class Player {
         return newCard
     }
     func rolldice() -> Int {
-        var roll: Int = Int(arc4random_uniform(6) + 1)
+        let roll: Int = Int(arc4random_uniform(6) + 1)
         return roll
     }
-    //    func matchingCards(String, Int){
-    //
-    //    }
+
 }
 
 let player = Player()

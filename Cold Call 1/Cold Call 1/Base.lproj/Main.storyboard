@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Cold_Call_1" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J46-eb-gWC">
+                                <rect key="frame" x="16" y="75" width="343" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sYa-hF-uVn">
+                                <rect key="frame" x="116" y="437" width="143" height="30"/>
+                                <color key="backgroundColor" red="0.70978202871884855" green="1" blue="0.98577238666063094" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Cold Call"/>
+                                <connections>
+                                    <action selector="coldCallButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="psv-dh-yhO"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oli-wh-H2h">
+                                <rect key="frame" x="116" y="178" width="143" height="42"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="J46-eb-gWC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5MF-wF-7EU"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="J46-eb-gWC" secondAttribute="trailing" id="Fu8-KG-Quz"/>
+                            <constraint firstItem="Oli-wh-H2h" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PrH-ue-jbM"/>
+                            <constraint firstItem="J46-eb-gWC" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="55" id="VjH-4v-0i1"/>
+                            <constraint firstItem="Oli-wh-H2h" firstAttribute="top" secondItem="J46-eb-gWC" secondAttribute="bottom" constant="79" id="W5s-c9-NEx"/>
+                            <constraint firstItem="sYa-hF-uVn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Wav-0P-2Ky"/>
+                            <constraint firstItem="J46-eb-gWC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Wjc-6u-naz"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="sYa-hF-uVn" secondAttribute="trailing" constant="100" id="eJu-Cc-FvP"/>
+                            <constraint firstItem="Oli-wh-H2h" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="100" id="gfd-gT-2UZ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Oli-wh-H2h" secondAttribute="trailing" constant="100" id="pLt-cX-UWQ"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="sYa-hF-uVn" secondAttribute="bottom" constant="200" id="tgx-t3-Qyx"/>
+                            <constraint firstItem="sYa-hF-uVn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="100" id="whm-6o-aIB"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="nameTextLabel" destination="J46-eb-gWC" id="nG4-rz-1nH"/>
+                        <outlet property="numberLabel" destination="Oli-wh-H2h" id="AF5-wC-ICA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+</document>
