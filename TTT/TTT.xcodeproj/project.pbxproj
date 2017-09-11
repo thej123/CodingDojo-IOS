@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					6748D8A71F62406B0059E3FF = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = G7L62UMNBW;
 						ProvisioningStyle = Automatic;
 					};
 					6748D8BB1F62406B0059E3FF = {
@@ -414,6 +415,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G7L62UMNBW;
 				INFOPLIST_FILE = TTT/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = codingDojo.TTT;
@@ -426,6 +428,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G7L62UMNBW;
 				INFOPLIST_FILE = TTT/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = codingDojo.TTT;
@@ -507,6 +510,7 @@
 				6748D8D21F62406B0059E3FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6748D8D31F62406B0059E3FF /* Build configuration list for PBXNativeTarget "TTTTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +519,7 @@
 				6748D8D51F62406B0059E3FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6748D8D61F62406B0059E3FF /* Build configuration list for PBXNativeTarget "TTTUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +528,7 @@
 				6748D8D81F62406B0059E3FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
